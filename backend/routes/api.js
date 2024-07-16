@@ -4,7 +4,7 @@ const upload = require("../middleware/upload");
 const { analyzeImage } = require("../controllers/analyzeController");
 
 router.post("/analyze", upload.single("image"), analyzeImage);
-router.get("/", (req, res) => {
+router.get("/healthcheck", (req, res) => {
   res.json("Hello");
 });
 
