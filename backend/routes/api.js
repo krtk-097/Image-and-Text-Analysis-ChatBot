@@ -5,7 +5,7 @@ const { analyzeImage } = require("../controllers/analyzeController");
 
 router.post("/analyze", upload.single("image"), analyzeImage);
 router.get("/healthcheck", (req, res) => {
-  res.json("Hello");
+  res.json("API is running");
 });
 
 module.exports = router;
