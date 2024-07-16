@@ -11,7 +11,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: ["https://image-and-text-analysis-chat-bot-server.vercel.app/"],
+    origin: ["https://image-and-text-analysis-chat-bot-server.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true,
   })
