@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "https://image-and-text-analysis-chat-bot-server.vercel.app/api";
+  "https://image-and-text-analysis-chatbot-server.onrender.com/api";
 
 export const analyzeImage = async (formData) => {
   try {
