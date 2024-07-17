@@ -24,8 +24,9 @@ This project is a chatbot that analyzes images and text using the Gemini API. It
    
 3.  Set up environment variables:
     - Create a `.env` file in the backend directory with the following:
-    - MONGODB_URI=your_mongodb_connection_string
-    - GEMINI_API_KEY=your_gemini_api_key
+    - `MONGODB_URI=your_mongodb_connection_string`
+    - `GEMINI_API_KEY=your_gemini_api_key`
+    - To get your own gemini api key, you can visit this [link](https://ai.google.dev/gemini-api/docs/api-key) 
 
 ## Usage
 
